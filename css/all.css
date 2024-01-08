@@ -4834,3 +4834,26 @@ th, td {
 th {
   background-color: #f3d4e4;
 }
+
+.conpp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 300px;
+  text-align: center;
+}
+
+/* 新增以下樣式，將特定標題靠左對齊 */
+.conpp h1 {
+  text-align: left;
+  color: #087990;
+}
+
+iframe {
+  max-width: 100%;
+}
+
+
+
+
