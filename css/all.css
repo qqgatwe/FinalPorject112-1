@@ -4912,9 +4912,8 @@ color: #dc3545;
 .flex-container{
 display: flex;
 flex-wrap: wrap;
-
-
 }
+
 .videobox {
   position: relative;
   width: 100%;
@@ -4929,20 +4928,18 @@ flex-wrap: wrap;
   width: 30%;
   height: 30%;
 }
+
 .div1{
 width: 900px;
 line-height: 600px;
 padding: 30px;
-
-
-
 }
+
 .div2{
   width: 900px;
   line-height: 600px;
   padding: 30px;
-  
-  
-  
   }
+
+
 
