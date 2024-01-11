@@ -4941,5 +4941,14 @@ padding: 30px;
   padding: 30px;
   }
 
+.text:hover{
+ color: red;
+
+} 
+.text{
+  color: blue;
+
+} 
+
 
 
