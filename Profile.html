@@ -6,9 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>學校簡介</title>
   <link rel="stylesheet" href="css/all.css">
+  <style>
+    body {
+      background-image: url(./img/背景圖.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  </style>
 </head>
 
 <body>
+
   <nav class="navbar">
     <div class="container">
       <div class="justify-content-between align-items-center" style="display: flex;">
@@ -44,13 +53,13 @@
         <div>
           <div>
             <b>
-              <h1 style="font-family: 標楷體;">發展願景</h1>
+              <h1>發展願景</h1>
             </b>
-            <h2 style="font-family: 標楷體;">尊重、關懷、感恩、快樂、健康、創新</h2>
+            <h2 >尊重、關懷、感恩、快樂、健康、創新</h2>
           </div>
 
-          <h1 style="font-family: 標楷體;">校史</h1><br>
-          <div style="width:850px;height:300px; overflow:auto; background:rgba(204,204,204,1);">
+          <h1>校史</h1><br>
+          <div style="width:850px;height:300px; overflow:auto; background:rgb(204, 204, 204);">
             新北市蘆洲區蘆洲國民小學 校史<br>
 
             本校創建於民國前十四年二月二十二日，迄今已有一百多年光輝的歷史，曾經為地方、為國家培植了不少的人材。<br>
@@ -132,9 +141,9 @@
             民國一百零九年八月一日陳明利先生接任校長（第十三任校長）。<br>
           </div>
 
-          <h1 style="font-family: 標楷體;">學校地址</h1>
+          <h1>學校地址</h1>
 
-          <h2 style="font-family: 標楷體;">（24752）新北市蘆洲區中正路100號</h2>
+          <h2>（24752）新北市蘆洲區中正路100號</h2>
 
           <div class="map-container">
             <iframe
@@ -149,9 +158,29 @@
 
 
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+        <div id="cover" class="coverflow">
+          <a href='#'><img src='./蘆洲國小/蘆洲國小側拍_0.jpg' alt=' '></a>
+          <a href='#'><img src='./蘆洲國小/蘆洲國小門口_0.jpg' alt=' '></a>
+          <a href='#'><img src='./蘆洲國小/蘆洲國小操場_0.jpg' alt=' '></a>
+        </div>
+        <script src="script.js"></script>
       </div>
     </div>
-    
+
+
+    <script>
+
+      window.addEventListener('wheel', (event) => {
+
+        const direction = event.deltaY > 0 ? 1 : -1;
+
+        window.scrollBy(0, direction * 1000);
+
+        event.preventDefault();
+      });
+    </script>
+
 
   </header>
 
